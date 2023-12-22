@@ -1,0 +1,177 @@
+@import url('http://fonts.cdnfonts.com/css/valorant');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    user-select: none;
+}
+
+#valorant {
+    font-family: 'VALORANT';
+    font-size: 220px;
+    letter-spacing: .12em;
+    text-align: center;
+    color: #dc3d4b;
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+
+.introphrase {
+    position: absolute;
+    top: 370px;
+    left: 520px;
+}
+
+#welcomephrase {
+    font-family: VALORANT;
+    font-weight: 600;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    font-size: 23px;
+}
+
+#offical-website {
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 90px;
+    font-family: Valorant;
+    font-weight: 600;
+    background-color: #fff;
+    position: relative;
+    top: 30px;
+    left: 151px;
+    transition: .2s;
+}
+
+#offical-website:hover {
+    border: 2px solid #dc3d4b;
+    background-color: #dc3d4b;
+    color: #fff;
+}
+
+#agents-select, #valorant__maps {
+    font-family: VALORANT;
+    color: #dc3d4b;
+    font-size: 200px;
+    text-align: center;
+}
+
+#agents {
+    background-image:  url(backgrounds/2.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+.valorantagents, .maps {
+    display: flex;
+    overflow-x: auto;
+}
+
+.valorantagents::-webkit-scrollbar {
+    height: 10px;
+}
+
+.valorantagents::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.maps::-webkit-scrollbar {
+    height: 10px;
+}
+
+.maps::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.carousel--collection__image {
+    margin-top: 140px;
+    position: relative;
+    margin: 0 10px 0 10px;
+    transform: scale(.93);
+}
+
+.agents__select, .maps__select {
+    width: 1020px;
+    height: 780px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 25px 20px -5px;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% ;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.role {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 490px;
+    color: white;
+    font-family: VALORANT;
+    font-size: 23px;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+#agent__name, #map__name {
+    font-family: VALORANT;
+    color: white;
+    font-size: 180PX;
+}
+
+#agent__name__brimstone {
+    font-family: VALORANT;
+    color: white;
+    font-size: 130PX;
+}
+
+#valo-maps {
+    background-image: url(backgrounds/valomapsbg.png);
+    background-position: center;
+}
+
+#footer {
+    background-color: #dc3d4b;
+}
+
+/* navbar */
+
+#navigation-bar {
+    position: fixed;
+}
+
+#valo-nav {
+    font-family: VALORANT;
+    font-size: 16px;
+}
+
+#navbar {
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
